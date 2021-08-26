@@ -23,12 +23,7 @@ void Player::moveLeft() { this->y -= 1; }
 void Player::moveRight() { this->y += 1; }
 void Player::moveUp() { this->x -= 1; }
 void Player::moveDown() { this->x += 1; }
-void Player::playerMove()
-{
 
-
-	// 벽 생각!
-}
 
 int Player::getX() { return x; }
 int Player::getY() { return y; }
