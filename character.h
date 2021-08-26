@@ -10,7 +10,6 @@ public:
 	void moveDown();
 	void moveLeft();
 	void moveRight();
-	void playerMove();
 	void setxy(int xx, int yy);
 	bool isXYEqual(int xx, int yy);
 
